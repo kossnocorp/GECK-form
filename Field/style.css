@@ -1,0 +1,19 @@
+@import '#app/imports';
+
+.FieldLabel {
+  font-weight: 500;
+  font-size: 1rem;
+
+  &.FieldLabel-disabled {
+    color: var(--color-text-disabled);
+  }
+}
+
+.FieldDescription {
+  color: var(--color-text-secondary);
+  line-height: 1.4;
+}
+
+.FieldError {
+  color: var(--color-negative);
+}

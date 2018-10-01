@@ -1,0 +1,13 @@
+{
+  "name": "GECK-form",
+  "version": "0.1.0",
+  "description": "G.E.C.K. form",
+  "repository": "https://github.com/kossnocorp/GECK-form",
+  "author": "Sasha Koss <koss@nocorp.me>",
+  "dependencies": {
+    "@types/pluralize": "~0",
+    "GECK-UI": "kossnocorp/GECK-UI",
+    "pluralize": "~7",
+    "preact": ">=8"
+  }
+}

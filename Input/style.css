@@ -1,0 +1,84 @@
+@import '#app/imports';
+
+.Wrapper {
+  position: relative;
+}
+
+.Wrapper-hasIcon {
+  & .Control {
+    padding-left: 2rem;
+  }
+
+  &.Wrapper-size-small {
+    & .Control {
+      padding-left: 1.75rem;
+    }
+  }
+}
+
+.Wrapper-size-small {
+  & .Control {
+    height: 1.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+.Wrapper-size-large {
+  & .Control {
+    height: 2.5rem;
+    font-size: 1.25rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+}
+
+.Wrapper-size-xlarge {
+  & .Control {
+    height: 3rem;
+    font-size: 1.4rem;
+    padding-left: var(--size-spacing-medium);
+    padding-right: var(--size-spacing-medium);
+  }
+}
+
+.Wrapper-style-search .Control {
+  border-radius: 1.5rem;
+  border-radius: 1.5rem;
+  border: 0;
+}
+
+.Wrapper-fullWidth {
+  & .Control {
+    width: 100%;
+  }
+}
+
+.IconWrapper {
+  color: var(--color-text-secondary);
+  position: absolute;
+  top: 0;
+  left: 0.5rem;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+.Control {
+  height: 2rem;
+  background: var(--color-canvas);
+  font-size: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border: 1px solid var(--color-border);
+  border-radius: 3px;
+
+  &:disabled,
+  &.Control-isDisabled {
+    background: var(--color-background-disabled);
+    color: var(--color-text-disabled);
+  }
+}
+
+&.Control-errored {
+  border-color: var(--color-negative);
+}
