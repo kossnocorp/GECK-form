@@ -8,8 +8,8 @@ export function Wrapper({
   size?: Size
   hasIcon?: boolean
   fullWidth?: boolean
-}): any
+}): JSX.Element
 
-export function IconWrapper(): any
+export function IconWrapper(): JSX.Element
 
-export function Control(): any
+export function Control(): JSX.Element

@@ -1,5 +1,5 @@
-export function FieldLabel(): any
+export function FieldLabel(): JSX.Element
 
-export function FieldDescription(): any
+export function FieldDescription(): JSX.Element
 
-export function FieldError(): any
+export function FieldError(): JSX.Element
