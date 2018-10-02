@@ -1,3 +1,3 @@
-import { Size } from 'GECK-UI/types'
+import { Size, CSSProps } from 'GECK-UI/types'
 
-export function Select({ size }: { size?: Size }): JSX.Element
+export function Select(props: CSSProps & { size?: Size }): JSX.Element

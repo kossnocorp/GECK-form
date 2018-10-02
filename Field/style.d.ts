@@ -1,5 +1,7 @@
-export function FieldLabel(): JSX.Element
+import { CSSProps } from 'GECK-UI/types'
 
-export function FieldDescription(): JSX.Element
+export function FieldLabel(props: CSSProps): JSX.Element
 
-export function FieldError(): JSX.Element
+export function FieldDescription(props: CSSProps): JSX.Element
+
+export function FieldError(props: CSSProps): JSX.Element

@@ -17,7 +17,7 @@ export default function Input({
   fullWidth?: boolean
 }) {
   return (
-    <Wrapper size={size} hasIcon={Icon} fullWidth={fullWidth}>
+    <Wrapper size={size} hasIcon={!!Icon} fullWidth={fullWidth}>
       {Icon && (
         <IconWrapper>
           <Icon size={size} />

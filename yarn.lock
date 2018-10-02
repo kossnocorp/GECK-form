@@ -8,7 +8,9 @@
 
 GECK-UI@kossnocorp/GECK-UI:
   version "0.1.0"
-  resolved "git+ssh://git@github.com/kossnocorp/GECK-UI.git#ca61a90c13c62a744864d6d4dfe8ab64c6590b47"
+  resolved "git+ssh://git@github.com/kossnocorp/GECK-UI.git#36a7c79e712d9779bd495e72550bf08b6816b1fe"
+  dependencies:
+    preact ">=8"
 
 pluralize@~7:
   version "7.0.0"
